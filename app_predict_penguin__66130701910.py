@@ -4,7 +4,7 @@ import pickle
 import numpy as np
 
 # Load the trained model and encoders
-with open('model_penguin_66130701910.pkl', 'rb') as f:
+with open('model_penguin__66130701910.pkl', 'rb') as f:
     model, species_encoder, island_encoder, sex_encoder = pickle.load(f)
 
 # Title of the app
